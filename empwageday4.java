@@ -8,6 +8,8 @@ public class empwageday4 {
 		double random=Math.floor(Math.random()*10)%2;
 		if (random==is_full_present) 
 			full_day_work_hr=8;
+		else
+			full_day_work_hr=4;
 		salary=(wage_per_hr*full_day_work_hr);
 		System.out.println(salary);		
 	}
